@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fanes.irfan.myapplication12.MainActivity">
+
+    <Button
+        android:id="@+id/btn_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET" />
+
+    <TextView
+
+        android:id="@+id/tv_respond"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+
+        android:text="New Text" />
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+
+        android:fillViewport="true"
+
+        android:scrollbars="vertical">
+
+        <TextView
+
+            android:id="@+id/tv_result_api"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentStart="true"
+
+            android:layout_below="@+id/tv_respond"
+
+            android:layout_marginTop="27dp"
+
+            android:text="New Text" />
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post" />
+
+    <TextView
+
+        android:id="@+id/tv_post2"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+
+
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="27dp"
+
+        android:text="POst" />
+    <Button
+        android:id="@+id/btn_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movie" />
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="fanes.irfan.myapplication12.Movie">
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreyLight"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="Search" />
+
+    <TextView
+
+        android:id="@+id/tv_respond2"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+
+        android:layout_below="@+id/tv_respond"
+
+        android:layout_marginTop="27dp"
+        android:textColor="@color/colorBlack"
+        android:background="#8A8A8A"
+
+        android:text="status" />
+
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+
+        android:fillViewport="true"
+
+        android:scrollbars="vertical">
+
+        <!--<TextView-->
+
+        <!--android:id="@+id/tv_result_api2"-->
+
+        <!--android:layout_width="wrap_content"-->
+
+        <!--android:layout_height="wrap_content"-->
+
+        <!--android:layout_alignParentLeft="true"-->
+
+        <!--android:layout_alignParentStart="true"-->
+
+        <!--android:layout_below="@+id/tv_respond"-->
+
+        <!--android:layout_marginTop="27dp"-->
+
+        <!--android:text="New Text" />-->
+
+
+    </ScrollView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/movie_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:scrollbars="horizontal"
+
+        />
+
+</LinearLayout>
+
+

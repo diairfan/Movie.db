@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fanes.irfan.myapplication12.MovieDetail">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+
+        android:id="@+id/iv_gbr"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_movieId"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+
+        android:textColor="@color/colorBlack"
+        android:background="#aa0000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_movidetile"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_movisub"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_sl"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stepSize="0.5"
+        android:numStars="5"
+        android:id="@+id/rb_star"
+        android:rating="5"
+        style="@style/Base.Widget.AppCompat.RatingBar.Small"/>
+
+</LinearLayout>
